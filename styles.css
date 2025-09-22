@@ -1,0 +1,18 @@
+body {
+    background-color:darkseagreen;
+    font-family:noto sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+header {
+    background-color:rgb(106, 160, 75);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+    color: darkslategray;
+    font-family: arial
+}    
+
+h2,p,li {
+    color: darkslategray;
+}
