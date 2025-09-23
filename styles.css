@@ -1,18 +1,114 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15;
+    padding: 15;
+}
+
 body {
-    background-color:darkseagreen;
-    font-family:noto sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    background-color:darkgrey;
+    font-family:noto sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header {
-    background-color:rgb(106, 160, 75);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    background-color:darkolivegreen;
+   
 }
 
 h1 {
-    color: darkslategray;
-    font-family: arial
+    color: black;
+    font-family: arial;
+    font-size: 50px;
 }    
 
-h2,p,li {
-    color: darkslategray;
+h2 {
+    color: black;
 }
+
+p,li {
+    color:rgb(255, 255, 255);
+
+}
+
+.skidegate {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    text-align:center;
+    font-style: italic;
+    line-height: 2;
+}
+
+.tlell {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    text-align:center;
+    font-style: italic;
+    line-height: 2;
+}
+
+.masset {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    text-align:center;
+    font-style: italic;
+    line-height: 2;
+}
+
+.port {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    text-align:center;
+    font-style: italic;
+    line-height: 2;
+}
+
+.south {
+    text-align:center;
+    font-weight:bolder;
+}
+
+footer p {
+    font-size: 10px;
+}
+/*can i put my 2 footers together?*/
+
+
+
+.north {
+    text-align:center;
+    font-weight:bolder;
+}
+
+header a {
+    color:black;
+}
+
+section a {
+    color:rgb(106, 160, 75);
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+.subnotes {
+    font-size:20px;
+    color:rgb(11, 235, 60);
+}
+/*help*/
+img source {
+    align-content:center;
+}
+
+body {
+    background-image:url("./assets/haida-gwaii-above.jpg"); 
+    background-size: cover;         
+    background-position: center;    
+    background-repeat: no-repeat;   
+    background-attachment: fixed;   
+    font-family: Arial, sans-serif;
+    color: white;                  
+}
+
