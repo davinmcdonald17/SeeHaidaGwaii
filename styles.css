@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color:darkgrey;
     font-family:noto sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 0px;
 }
@@ -15,16 +14,26 @@ header {
     background-color:darkolivegreen;
     margin-top: 0px;
     border:5px solid black;
+    background-image: url("./assets/haida-village.jpg");
+               
 }
+
+
+
 
 h1 {
     color: black;
     font-family: arial;
-    font-size: 50px;
+    font-size: 60px;
 } 
 
 p {
     color: black;
+    
+}
+
+div {
+    text-align: center;
 }
 
 
@@ -37,14 +46,40 @@ li {
     color:blanchedalmond;
     text-align: center;
     font-weight: 200;
+    font-size: 18px;
+}
+
+.sites {
+    text-decoration: underline;
+    font-style: italic;
+    color: black;
+    font-size: 25px;
+    background: none;
+    border: 0cm;
+    text-align: center;
+    
+}
+
+.gwaiihaanas {
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    text-align:center;
+    font-style: italic;
+    line-height: 2;
 }
 
 
-
+.sandspit {
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    text-align:center;
+    font-style: italic;
+    line-height: 2;
+}
 
 .skidegate {
     color:rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 45px;
     text-align:center;
     font-style: italic;
     line-height: 2;
@@ -52,7 +87,7 @@ li {
 
 .tlell {
     color:rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 45px;
     text-align:center;
     font-style: italic;
     line-height: 2;
@@ -60,7 +95,7 @@ li {
 
 .masset {
     color:rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 45px;
     text-align:center;
     font-style: italic;
     line-height: 2;
@@ -68,7 +103,7 @@ li {
 
 .port {
     color:rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 45px;
     text-align:center;
     font-style: italic;
     line-height: 2;
@@ -79,13 +114,16 @@ li {
     font-weight:bolder;
     text-decoration: underline;
 }
-/*help with shortening line and also nav bar color change?*/
 
 footer p {
     font-size: 10px;
 }
 
-ul,ol {
+ul {
+    list-style-type: none;
+}
+
+ol {
     list-style-position: inside;
 }
 
@@ -103,7 +141,7 @@ header a {
 }
 
 section a {
-    color:rgb(106, 160, 75);
+    color:rgb(255, 255, 255);
 }
 
 a {
@@ -113,19 +151,21 @@ a {
 a:hover {
     text-decoration:underline;
 }
+
 .subnotes {
     font-size:20px;
     color:blanchedalmond;
     text-align: center;
 }
-/*help*/
+
 img {
     display: block;
     margin: 20px auto;
     width:70%;
     height:60%;
+    max-width: 70%;
 }
-
+/*height and width same as cover background size here?*/
 body {
     background-image:url("./assets/haida-gwaii-above.jpg"); 
     background-size: cover;         
@@ -137,7 +177,7 @@ body {
 }
 
 strong {
-    color:red;
+    color:rgb(255, 0, 0);
     font-weight: 200;
 }
 
@@ -148,8 +188,9 @@ strong {
 }
 
 .longp {
-    margin: 0 35px 0 35px;
+    margin: 0 200px 0 200px;
     padding: 35px;
+    font-size: 18px;
 }
 
 section {
