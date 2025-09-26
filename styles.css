@@ -149,14 +149,19 @@ section a {
 
 a {
     text-decoration:none;
+    color: black;
 }
 
 a:hover {
     text-decoration:underline;
+    color: blanchedalmond;
 }
+
+
 
 #footer {
     font-size: 10px;
+    text-align: center;
 }
 
 .subnotes {
@@ -193,6 +198,8 @@ strong {
     margin: 0;
     padding: 0;
 }
+
+
 
 .longp {
     margin: 0 200px 0 200px;
