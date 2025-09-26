@@ -17,6 +17,7 @@ header {
     background-image: url("./assets/haida-village.jpg");
                
 }
+/*where do i give credit for this banner photo and background?*/
 
 
 
@@ -46,7 +47,7 @@ li {
     color:blanchedalmond;
     text-align: center;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .sites {
@@ -115,12 +116,14 @@ li {
     text-decoration: underline;
 }
 
-footer p {
-    font-size: 10px;
-}
 
 ul {
     list-style-type: none;
+}
+
+.nest {
+    list-style-type:disc;
+    list-style-position: inside;
 }
 
 ol {
@@ -150,6 +153,10 @@ a {
 
 a:hover {
     text-decoration:underline;
+}
+
+#footer {
+    font-size: 10px;
 }
 
 .subnotes {
@@ -190,7 +197,7 @@ strong {
 .longp {
     margin: 0 200px 0 200px;
     padding: 35px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section {
